@@ -1,4 +1,4 @@
-.page {
+.pagecadastro{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,18 +8,20 @@
     height: 100vh;
 }
 
-
-.formLogin {
+.cadastro{
     display: flex;
     flex-direction: column;
     background-color: purple;
     border-radius: 7px;
-    padding: 40px;
+    padding: 19px;
+    margin: 47px;
+    width: 38%;
+    height: 85%;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
     gap: 5px
 }
 
-.btn:hover {
+.btn1:hover {
     transform: scale(1.05);
     background-color: #8d2554;
 
@@ -29,21 +31,21 @@
     width: 420px;
 }
 
-.formLogin h1 {
+.cadastro h1 {
     padding: 0;
     margin: 0;
     font-weight: 500;
     font-size: 2.3em;
 }
 
-.formLogin p {
+.cadastro p {
     display: inline-block;
     font-size: 14px;
     color: #0c0c0c;
     margin-bottom: 25px;
 }
 
-.formLogin input {
+.cadastro input {
     padding: 15px;
     font-size: 14px;
     border: 1px solid #ccc;
@@ -54,16 +56,16 @@
     outline: none;
 }
 
-.formLogin input:focus {
+.cadastro input:focus {
     border: 1px solid #0d0d0d;
 }
 
-.formLogin label {
+.cadastro label {
     font-size: 14px;
     font-weight: 600;
 }
 
-.formLogin a {
+.cadastro a {
     display: inline-block;
     margin-bottom: 20px;
     font-size: 13px;
@@ -71,11 +73,11 @@
     transition: all linear 160ms;
 }
 
-.formLogin a:hover {
+.cadastro a:hover {
     color: #f72585;
 }
 
-.btn {
+.btn1 {
     background-color: rgb(212, 96, 212);
     font-family: 'Permanent Marker', cursive;
     color: #111010;
@@ -87,4 +89,3 @@
     margin: 0 !important;
 
 }
-
