@@ -13,10 +13,7 @@
     flex-direction: column;
     background-color: purple;
     border-radius: 7px;
-    padding: 19px;
-    margin: 47px;
-    width: 38%;
-    height: 85%;
+    padding: 40px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
     gap: 5px
 }
