@@ -86,3 +86,36 @@
     margin: 0 !important;
 
 }
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #0d0d0e;
+    background: #7d2795;
+    background: linear-gradient(90deg, rgb(157, 7, 202) 0%, rgb(169, 4, 161) 100%);
+    border: none;
+    
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(106, 10, 115, 0.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 6px;
+}
+
+.button:hover{
+    color: #f72585;
+}
